@@ -1,19 +1,13 @@
 package me.agend.modelo;
 
-public abstract class Pessoa {
-	
-	private String nome; 
-	private String email; 
-	private char sexo; 
+public class Pessoa {
+	private String nome;
+	private String email;
 	private String telefone;
+	private String endereco;
+	private String dataNascimento;
+	private String sexo;
 	
-	public Pessoa(String nome, String email, char sexo, String telefone) {
-		super();
-		this.nome = nome;
-		this.email = email;
-		this.sexo = sexo;
-		this.telefone = telefone;
-	}
 	
 	public String getNome() {
 		return nome;
@@ -27,18 +21,29 @@ public abstract class Pessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public char getSexo() {
-		return sexo;
-	}
-	public void setSexo(char sexo) {
-		this.sexo = sexo;
-	}
 	public String getTelefone() {
 		return telefone;
 	}
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
-	} 
-	
+	}
+	public String getEndereco() {
+		return endereco;
+	}
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
 	
 }
