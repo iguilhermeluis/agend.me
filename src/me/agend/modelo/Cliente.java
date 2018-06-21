@@ -8,7 +8,7 @@ public class Cliente extends Pessoa {
 	
 	
 	public Cliente(String nome, String email, char sexo, String telefone) {
-		super(nome, email, sexo, telefone);
+		super();
 		// TODO Auto-generated constructor stub
 	}
 	public String getLogin() {
