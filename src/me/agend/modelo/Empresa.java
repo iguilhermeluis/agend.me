@@ -1,15 +1,13 @@
 
 package me.agend.modelo;
 
-import java.sql.Time;
-
 public class Empresa {
 	private String nome;
 	private String nomeFantasia;
 	private String cpf;
 	private String cnpj;
-	private Time horarioAbertura;
-	private Time horarioFechamento;
+	private String horarioAbertura;
+	private String horarioFechamento;
 	private String endereco;
 	private String email;
 	private String telefone;
@@ -38,17 +36,17 @@ public class Empresa {
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
-	public Time getHorarioAbertura() {
+	public String getHorarioAbertura() {
 		return horarioAbertura;
 	}
-	public void setHorarioAbertura(Time horarioAbertura) {
-		this.horarioAbertura = horarioAbertura;
+	public void setHorarioAbertura(String string) {
+		this.horarioAbertura = string;
 	}
-	public Time getHorarioFechamento() {
+	public String getHorarioFechamento() {
 		return horarioFechamento;
 	}
-	public void setHorarioFechamento(Time horarioFechamento) {
-		this.horarioFechamento = horarioFechamento;
+	public void setHorarioFechamento(String string) {
+		this.horarioFechamento = string;
 	}
 	public String getEndereco() {
 		return endereco;

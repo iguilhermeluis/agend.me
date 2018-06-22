@@ -24,7 +24,7 @@ public class FabricaConexao {
 				return conexao;
 				
 			} catch(ClassNotFoundException e){
-				System.out.println("Falha ao se connectar");
+				System.out.println("Falha");
 				e.printStackTrace();
 				return null;
 			} catch (SQLException e){
